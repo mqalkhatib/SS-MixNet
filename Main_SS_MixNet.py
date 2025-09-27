@@ -189,12 +189,13 @@ img_display(classes=Predicted_Class_Map, title='Predicted', class_name=class_nam
 
 gt_binary = gt.copy()
 gt_binary[gt>0]=1
-img_display(classes=Predicted_Class_Map*gt_binary, title='Predicted_with Mask', class_name=class_name)
+img_display(classes=Predicted_Class_Map*gt_binary, title='Predicted with Mask', class_name=class_name)
 
 
 Folder = 'Matlab_Outputs/'
 Name = f'SS_MixNet'
 sio.savemat(Folder + DATASET+'/' + Name+'.mat', {Name: Predicted_Class_Map})
+
 
 
 
