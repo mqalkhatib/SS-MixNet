@@ -56,7 +56,9 @@ from tensorflow.keras.layers import (
 from tensorflow.keras.models import Model
 
 def spectral_mixer_block(x, hidden_dim, num_blocks = 4):
-    H, W, C, D = x.shape[1:]  
+    H, W, C, D = x.shape[1:]
+
+    x = Permute((1,2,4,3))(x)
     x = Reshape((H*W, D, C))(x)     
     
     for _ in range(num_blocks):
@@ -193,6 +195,7 @@ img_display(classes=Predicted_Class_Map*gt_binary, title='Predicted_with Mask', 
 Folder = 'Matlab_Outputs/'
 Name = f'SS_MixNet'
 sio.savemat(Folder + DATASET+'/' + Name+'.mat', {Name: Predicted_Class_Map})
+
 
 
 
