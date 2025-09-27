@@ -1,7 +1,8 @@
 # SS-MixNet
 **Hyperspectral Image Classification using Spectral-Spatial Mixer Network**, Accepted for publication in IEEE WHISPERS Conference.
 
-[(WHISPERS 25) SS Mixer-Model.pdf](https://github.com/user-attachments/files/22577835/WHISPERS.25.SS.Mixer-Model.pdf)
+<img width="1535" height="571" alt="(WHISPERS 25) SS Mixer-Model" src="https://github.com/user-attachments/assets/603cef9d-0f08-42e7-9bb3-b759d57d1ecd" />
+
 
 # Datasets:
 Two Commonly used datasets were used in this paper, namely  QUH-Tangdaowan and QUH-Qingyun
