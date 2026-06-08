@@ -16,3 +16,14 @@ To quantitatively measure the proposed SS-MixNet model, three evaluation metrics
 Model was qualitatively evaluated by visually comparing the resulting class maps.
 <img width="442" height="562" alt="image" src="https://github.com/user-attachments/assets/ce3216da-bf34-474e-9486-4922e504fb87" />
 
+# Citation
+@INPROCEEDINGS{11501574,
+  author={Alkhatib, Mohammed Q.},
+  booktitle={2025 15th Workshop on Hyperspectral Imaging and Signal Processing: Evolution in Remote Sensing (WHISPERS)}, 
+  title={Hyperspectral Image Classification Using Spectral-Spatial Mixer Network}, 
+  year={2025},
+  volume={},
+  number={},
+  pages={1-5},
+  keywords={HSI classification;MLP-Mixer;DepthWise Convolution;Attention Mechanism},
+  doi={10.1109/WHISPERS69515.2025.11501574}}
